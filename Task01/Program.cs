@@ -14,9 +14,9 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a == b * b)
 {
-  Console.WriteLine($"квадрат числа {b} = {a} -> Да");
+    Console.WriteLine($"квадрат числа {b} = {a} -> Да");
 }
 else
 {
-Console.WriteLine($"квадрат числа {b} не равняется {a} -> Нет");
+    Console.WriteLine($"квадрат числа {b} не равняется {a} -> Нет");
 }
